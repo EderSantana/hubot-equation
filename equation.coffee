@@ -1,5 +1,5 @@
 # Description:
-#   Render Latex equations by calling Google charts API
+#   Render Latex equations by calling Google chart API
 #
 # Dependencies:
 #   None
