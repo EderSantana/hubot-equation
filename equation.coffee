@@ -14,9 +14,7 @@
 #   edersantana
 
 module.exports = (robot) ->
-  robot.respond /(equation|eqn)( me)? (.*)/i, (msg) ->
-    eqnMe msg, msg.match[2] (url) ->
-      msg.send url
-
-eqnMe = (msg, query) ->
-  url = "http://chart.apis.google.com/chart?cht=tx&chl=$" + query + "$"
+  robot.respond /eqn me (.*)/i, (msg) ->
+    query = msg.match[1].replace(/\ /g,'%20')
+    url = "http://chart.apis.google.com/chart?cht=tx&chl=" + query
+    msg.send url
