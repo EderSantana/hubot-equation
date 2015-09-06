@@ -24,4 +24,4 @@ Then add **hubot-equation** to your `external-scripts.json`:
 
 ## TODO
 - [ ] Detect double $ and generate equation inside automatically
-- [ ] Hope for Slack's own equation support
+- [ ] Hope native equation support everywhere
