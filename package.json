@@ -1,0 +1,23 @@
+{
+  "name": "hubot-equation",
+  "version": "1.0.0",
+  "description": "A hubot script rendering Latex equations",
+  "main": "equation.coffee",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/edersantana/hubot-equation.git"
+  },
+  "keywords": [
+    "hubot",
+    "equation",
+    "Latex"
+  ],
+  "author": "Eder Santana <https://github.com/edersantana>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edersantana/hubot-equation/issues"
+  },
+  "dependencies": {
+    "coffee-script": "~1.6"
+  }
+}
