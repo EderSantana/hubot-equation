@@ -19,6 +19,9 @@ Then add **hubot-equation** to your `external-scripts.json`:
 ]
 ```
 
+## Usage
+[robot] eqn me [your equation]
+
 ## TODO
-- [] Detect double $ and generate equation inside automatically
-- [] Hope for Slack's own equation support
+- [ ] Detect double $ and generate equation inside automatically
+- [ ] Hope for Slack's own equation support
