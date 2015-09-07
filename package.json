@@ -1,6 +1,6 @@
 {
   "name": "hubot-equation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A hubot script rendering Latex equations",
   "main": "equation.coffee",
   "repository": {
