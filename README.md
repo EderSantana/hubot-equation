@@ -21,8 +21,8 @@ Then add **hubot-equation** to your `external-scripts.json`:
 ```
 
 ## Usage
-[robot] eqn me [your equation]
-surround equation with $$
+- [robot] eqn me [your equation]
+- surround equation with $$
 
 ## TODO
 - [x] Detect double $ and generate equation inside automatically
