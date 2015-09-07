@@ -18,3 +18,8 @@ module.exports = (robot) ->
     query = msg.match[1].replace(/\ /g,'%20')
     url = "http://chart.apis.google.com/chart?cht=tx&chl=" + query
     msg.send url
+
+  robot.hear /\$(.*)\$/i, (msg) ->
+    query = msg.match[1].replace(/\ /g,'%20')
+    url = "http://chart.apis.google.com/chart?cht=tx&chl=" + query
+    msg.send url
